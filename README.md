@@ -1,4 +1,4 @@
-[![Open In Colab](https://github.com/HaoshuiYu/logreg-volatility-pipeline/blob/main/log_reg_vol.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HaoshuiYu/logreg-volatility-pipeline/blob/main/log_reg_vol.ipynb)
 ## Logistic Regression Volatility Signal
 This project implements a logistic regression model to estimate the probability of a positive forward return using return- and volatility-based features. The emphasis is on building a clean end-to-end modeling pipeline and evaluating probabilistic outputs rather than maximizing raw prediction accuracy. At this stage, the pipeline uses ASML (semiconductor company) as the target asset, with SMH used as the semiconductor sector average proxy; these inputs can be replaced to apply the method to other assets/sectors.
 
@@ -43,4 +43,5 @@ As a sanity check, when the labels are shuffled, the model no longer beats the b
 
 
 For these reasons, the signal exists but is only weakly predictive of prices when applied to the equity asset ASML.
+
 
