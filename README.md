@@ -9,7 +9,7 @@ The goal of this project is to practice constructing and validating a classifica
 The repository contains a single Jupyter notebook that walks through the full modeling process, including data preparation, feature engineering, model fitting, and evaluation.
 
 ## Pipeline Stages
-The notebook follows these high-level stages:
+The notebook follows these steps:
 - Data acquisition and preparation
 - Feature engineering
 - Label construction
@@ -43,5 +43,6 @@ As a sanity check, when the labels are shuffled, the model no longer beats the b
 
 
 For these reasons, the signal exists but is only weakly predictive of prices when applied to the equity asset ASML.
+
 
 
